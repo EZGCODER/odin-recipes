@@ -1,0 +1,45 @@
+* {
+    color: white;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+    padding: 5px;
+}
+
+.HOME {
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.image-ingredients {
+    display: block;
+    text-align: center;
+}
+img {
+    background-color: transparent;
+    display: inline-block;
+    padding: 0px;
+    margin: 5px 0px 5px;
+}
+
+.ingredients-list {
+    display: inline-block;
+    padding: 10px;
+    background-color: aquamarine;
+    margin-left: 5px;
+    margin-right: 25%;
+}
+

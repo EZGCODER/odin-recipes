@@ -1,0 +1,25 @@
+* {
+    color: white;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+    padding: 5px;
+}
+
+.homepage {
+    background-color: rgb(27, 27, 27);
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    background-color: aquamarine;
+    color: black;
+    margin: 10px 0px;
+    padding: 10px;
+}
+a {
+    color: rgb(0, 0, 0);
+}
