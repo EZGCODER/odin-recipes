@@ -5,41 +5,56 @@
 
 body {
     background-color: black;
-    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.HOME {
+.HOME-button {
     display: block;
+    width: 100%;
     text-align: center;
+    font-size: clamp(20px, 5vw, 70px);
     background-color: aquamarine;
     padding: 10px;
-    margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 h1 {
     display: block;
     text-align: center;
+    font-size: clamp(18px, 4vw, 50px);
     background-color: aquamarine;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.image-ingredients {
-    display: block;
-    text-align: center;
+
+.recipe-layout {
+    display: table;
+    width: 100%;
+    border-spacing: 10px;
 }
-img {
-    background-color: transparent;
-    display: inline-block;
-    padding: 0px;
-    margin: 5px 0px 5px;
+
+.ingredients-list,
+.food-image {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 .ingredients-list {
-    display: inline-block;
-    padding: 10px;
+    padding: 0px;
+    font-size: clamp(15px, 5vw, 60px);
     background-color: aquamarine;
-    margin-left: 5px;
-    margin-right: 25%;
 }
 
+.ingredients-title {
+    margin: 5%;
+}
+
+.food-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
