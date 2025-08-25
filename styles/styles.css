@@ -35,7 +35,7 @@ h1 {
     border-spacing: 10px;
 }
 
-.ingredients-list,
+.ingredients-display,
 .food-image {
     display: table-cell;
     width: 50%;
@@ -43,14 +43,22 @@ h1 {
     box-sizing: border-box;
 }
 
-.ingredients-list {
+.ingredients-display {
     padding: 0px;
     font-size: clamp(15px, 5vw, 60px);
     background-color: aquamarine;
 }
 
 .ingredients-title {
-    margin: 5%;
+    margin: 5px;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.ingredients-list {
+    margin: 5px;
+    padding-left: 20px;
+    list-style-position: inside;
 }
 
 .food-image img {
